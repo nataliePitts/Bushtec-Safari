@@ -1,4 +1,4 @@
-/* Template: Villa - Bed & Breakfast Landing Page Template
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');/* Template: Villa - Bed & Breakfast Landing Page Template
    Author: Inovatik
    Description: Master CSS file
 */
@@ -48,32 +48,32 @@ body, p {
 
 h1 {
 	color: #363a40;
-	font: italic 700 2.5rem/3.25rem "PT Serif", sans-serif;
+	font: italic 700 2.5rem/3.25rem "Open Sans", sans-serif;
 }
 
 h2 {
 	color: #363a40;
-	font: italic 700 2.375rem/3.125rem "PT Serif", sans-serif;
+	font: italic 700 2.375rem/3.125rem "Open Sans", sans-serif;
 }
 
 h3 {
 	color: #363a40;
-	font: italic 700 1.5rem/2.25rem "PT Serif", sans-serif;
+	font: italic 700 1.5rem/2.25rem "Open Sans", sans-serif;
 }
 
 h4 {
 	color: #363a40;
-	font: italic 700 1.25rem/1.75rem "PT Serif", sans-serif;
+	font: italic 700 1.25rem/1.75rem "Open Sans", sans-serif;
 }
 
 h5 {
 	color: #363a40;
-	font: italic 700 1.125rem/1.625rem "PT Serif", sans-serif;
+	font: italic 700 1.125rem/1.625rem "Open Sans", sans-serif;
 }
 
 h6 {
 	color: #363a40;
-	font: italic 700 1rem/1.5rem "PT Serif", sans-serif;
+	font: italic 700 1rem/1.5rem "Open Sans", sans-serif;
 }
 
 .p-large {
@@ -112,6 +112,9 @@ a.no-line {
 
 .green {
 	color: #630000;
+}
+.black {
+	color: rgba(0, 0, 0, 0.699);
 }
 
 .bg-gray {
@@ -612,6 +615,7 @@ input[type='checkbox'] {
 	align-items: center;
 	height: 37.5rem;
 	text-align: center;
+	
 }
 
 .header .swiper-container {
@@ -623,17 +627,17 @@ input[type='checkbox'] {
 }
 
 .header .swiper-container .swiper-slide.first {
-	background: linear-gradient(to bottom right, rgba(145, 74, 218, 0), rgba(145, 74, 218, 0)), url('../images/slide-two.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(145, 74, 218, 0), rgba(145, 74, 218, 0)), url('../images/hero1.jpg') center center no-repeat;
 	background-size: cover; 
 }
 
 .header .swiper-container .swiper-slide.second {
-	background: linear-gradient(to bottom right, rgba(145, 74, 218, 0), rgba(145, 74, 218, 0)), url('../images/slide-one.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(145, 74, 218, 0), rgba(145, 74, 218, 0)), url('../images/hero2.jpg') center center no-repeat;
 	background-size: cover; 
 }
 
 .header .swiper-container .swiper-slide.third {
-	background: linear-gradient(to bottom right, rgba(145, 74, 218, 0), rgba(145, 74, 218, 0)), url('../images/slide-three.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(145, 74, 218, 0), rgba(145, 74, 218, 0)), url('../images/hero3.jpg') center center no-repeat;
 	background-size: cover; 
 }
 
@@ -645,12 +649,16 @@ input[type='checkbox'] {
 	margin-left: 1rem;
 	padding: 1.75rem 2.5rem;
 	border-radius: 0.25rem;
+	background-color: rgba(0, 0, 0, 0.452);
+	
 	
 }
 
 .header h1 {
 	margin-bottom: 1.75rem;
 	color: #ffffff;
+	font: 600 0.875rem/0 "Open Sans", sans-serif;
+
 }
 
 .header .btn-solid-lg,
@@ -1125,7 +1133,24 @@ input[type='checkbox'] {
 	color: #ffffff;
 }
 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
 
+.my-float{
+	margin-top:16px;
+}
 /*******************/
 /*    Location     */
 /*******************/
@@ -1133,6 +1158,7 @@ input[type='checkbox'] {
 	padding-top: 7rem;
 	padding-bottom: 3.5rem;
 	text-align: center;
+	background-color: rgba(0, 0, 0, 0.171);
 }
 
 .basic-1 h2 {
@@ -1150,7 +1176,7 @@ input[type='checkbox'] {
 
 .basic-1 .list-unstyled .fas {
 	margin-right: 0.5rem;
-	color: #1ebbce;
+	color: #630000;
 	font-size: 0.875rem;
 }
 
